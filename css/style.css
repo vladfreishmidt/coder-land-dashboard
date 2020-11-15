@@ -178,6 +178,39 @@ a {
 /* header end */
 
 
+/* sub-header start */
+.sub-header {
+  background-color: #ccc;
+  padding: 10px 0;
+}
+
+
+/* * network test start */
+  .network-test__icon {
+    font-size: 1.6rem;
+    color: #4af287;
+    position: relative;
+  }
+
+  .network-test__icon--false {
+    color: rgba(255, 0, 0, .4)
+  }
+
+  .network-test__icon--false::after {
+    content: '';
+    width: 2px;
+    height: 21px;
+    background-color: rgba(255, 0, 0, .4);
+    position: absolute;
+    right: 11px;
+    bottom: 2px;
+    transform: rotate(-45deg);
+  }
+/* * network test end */
+
+/* sub-header end */
+
+
 /* card start */ 
   .card {
     box-shadow: 0 0 5px rgba(0, 0, 0, .1);
@@ -231,6 +264,8 @@ a {
   font-size: 1.2rem;
 }
 /* course section end */
+
+
 
 
 
