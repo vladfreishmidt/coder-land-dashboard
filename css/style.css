@@ -258,6 +258,14 @@ a {
   transition: all .3s ease-in-out;
 }
 
+.card--course-tag.react {
+  background: #61dafb;
+}
+
+.card--course:hover .card--course-tag.react {
+  box-shadow:0 0 10px#61dafb;
+}
+
 .course__btn {
   display: block;
   text-transform: uppercase;
